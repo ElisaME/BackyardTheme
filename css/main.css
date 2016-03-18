@@ -1,0 +1,75 @@
+/*Variables*/
+/*Header*/
+.logo {
+  width: 30%;
+  height: auto; }
+
+#banner {
+  background-image: url("../images/1920x665-1.jpg");
+  height: 665px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative; }
+
+.filtro {
+  height: 665px;
+  width: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.contenido {
+  position: absolute;
+  top: 20%;
+  left: 10%; }
+  .contenido button {
+    background-color: transparent;
+    color: #3492CE;
+    border: 1px solid #3492CE;
+    border-radius: 20px;
+    margin-top: 2%; }
+    .contenido button:hover {
+      background-color: #3492CE;
+      color: #ffffff; }
+  .contenido h1, .contenido p {
+    color: #ffffff; }
+  .contenido p {
+    margin-top: 2%; }
+
+/*Blank space*/
+#blank {
+  height: 80px;
+  border-bottom: 1px solid gray; }
+
+#optimize, #services {
+  margin-top: 80px; }
+
+#optimize button {
+  background-color: transparent;
+  color: #3492CE;
+  border: 1px solid #3492CE;
+  border-radius: 20px; }
+  #optimize button:hover {
+    background-color: #3492CE;
+    color: #ffffff; }
+
+#services {
+  background-color: #EDEDED;
+  padding-bottom: 5%; }
+  #services h3 {
+    margin-top: 80px; }
+
+footer {
+  padding: 3%; }
+  footer i {
+    border-radius: 100%;
+    color: #3492CE;
+    border: 1px solid;
+    padding: 10px 11px;
+    margin-bottom: 2%; }
+
+span {
+  color: #3492CE; }
+
+/*# sourceMappingURL=main.css.map */
